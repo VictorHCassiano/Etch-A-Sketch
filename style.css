@@ -11,26 +11,41 @@ body{
     height: 640px;
     background-color: white;
   }
-  
-  .square {
-    width: 40px;
-    height: 40px;
-    float: left;
-    border-style: solid;
-    
+  .container{
+    display: flex;
+    flex-direction: row;
   }
+  
   .grid {
     width: 640px;
     height: 640px;
-    background-color: white;
+    
   }
-  
-  .square {
+  .colunaBotoes{
+    margin: 10px;
+    flex-direction: column;
+  }
+  .square64x64 { 
+    width: 10px;
+    height: 10px;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid black;
+  }
+  .square16x16 {
     width: 40px;
     height: 40px;
     float: left;
     box-sizing: border-box;
     border: 1px solid black;
+  } 
+  .square32x32 {
+    width: 20px;
+    height: 20px;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid black;
+  
   }
   .container{
     
